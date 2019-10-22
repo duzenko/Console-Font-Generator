@@ -1,10 +1,8 @@
-program Project1;
+program FontTexGen;
 
 uses
   Vcl.Forms,
   Unit1 in 'Unit1.pas' {Form1},
-  GdiPlus in 'Lib\GdiPlus.pas',
-  GdiPlusHelpers in 'Lib\GdiPlusHelpers.pas',
   tga in 'tga.pas';
 
 {$R *.res}

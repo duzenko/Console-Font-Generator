@@ -59,10 +59,10 @@ object Form1: TForm1
     end
   end
   object FontDialog1: TFontDialog
-    Font.Charset = DEFAULT_CHARSET
+    Font.Charset = ANSI_CHARSET
     Font.Color = clWhite
     Font.Height = -24
-    Font.Name = 'Courier New'
+    Font.Name = 'Consolas'
     Font.Style = []
     Font.Quality = fqAntialiased
     Left = 312

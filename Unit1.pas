@@ -69,16 +69,12 @@ begin
 //    Brush.Color := Bitmap.TransparentColor;
     Brush.Color := $0;
     FillRect(ClipRect);
-    Brush.Color := $ffffff;
     for c := 0 to 255 do
-    case c of
-    10:
-      FillRect(Rect(c mod 16 * cw, c div 16 * ch, c mod 16 * cw + 2, c div 16 * ch + ch-1));
-    11:
-      FillRect(Rect(c mod 16 * cw, c div 16 * ch, c mod 16 * cw + cw - 1, c div 16 * ch + ch-1));
-    else
-      TextOut(c mod 16 * cw, c div 16 * ch, Chr(c));
-    end;
+      if not(c in [10,11]) then
+        TextOut(c mod 16 * cw, c div 16 * ch, Chr(c));
+    Brush.Color := $ffffff;
+    FillRect(Rect(10 * cw, 0, 10 * cw + 2, ch-1));
+    FillRect(Rect(11 * cw, 0, 11 * cw + cw-1, ch-1));
   end;
   Image1.Picture.Graphic := Bitmap;
   StatusBar1.SimpleText := Format('%d: %d x %d',

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.784,C:\Users\a\Documents\Embarcadero\Studio\Projects\TextureGenerator\Project1.dproj=C:\Users\a\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.036,=C:\Users\a\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.389,=C:\Users\a\Documents\Embarcadero\Studio\Projects\TextureGenerator\Lib\GdiPlusHelpers.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.727,C:\Users\a\Documents\Embarcadero\Studio\Projects\TextureGenerator\Unit1.pas=C:\Users\a\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.847,C:\Users\a\Documents\Embarcadero\Studio\Projects\TextureGenerator\tga.pas=C:\Users\a\Documents\Embarcadero\Studio\Projects\TextureGenerator\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.319,=C:\Users\a\Documents\Embarcadero\Studio\Projects\TextureGenerator\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.384,=C:\Users\a\Documents\Embarcadero\Studio\Projects\TextureGenerator\Lib\GdiPlus.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.727,C:\Users\a\Documents\Embarcadero\Studio\Projects\TextureGenerator\Unit1.dfm=C:\Users\a\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2019.10.22 21:21:51.781,C:\Users\a\Documents\Embarcadero\Studio\Projects\TextureGenerator\FontTexGen.dproj=C:\Users\a\Documents\Embarcadero\Studio\Projects\TextureGenerator\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
